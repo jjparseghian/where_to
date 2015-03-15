@@ -1,0 +1,7 @@
+#plane {
+  max-width: 200%;
+  height: auto;
+  zoom: 200%;
+  margin-top: 10%;
+  position: fixed;
+}
