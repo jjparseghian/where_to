@@ -1,4 +1,4 @@
-class postController < ApplicationController
+class PostsController < ApplicationController
 
 	before_action :set_comment, only: [:edit, :show, :destroy]
 
@@ -12,11 +12,11 @@ class postController < ApplicationController
 	end
 
 	def new
+		@post = Post.new
 	end
 
 	def create
-		 post = Post.create(post_params)
-		p session[:user_id]
+		post = Post.create(post_params)
 		redirect_to posts_path
 	end
 
