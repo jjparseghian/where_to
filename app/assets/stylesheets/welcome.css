@@ -1,13 +1,28 @@
 .centered-btn{
 	position: absolute;
-  top: 50%;
-  margin-left: 47%;
-  font-family: 'Fjalla One', sans-serif;
+  top: 40%;
+  margin-left: 43%;
+  font-family: 'Oswald', sans-serif;
+  border-width: 3px;
 }
 
+.centered-btn:before{
+  border-width: 3px;
+}
+
+.nav a{
+  color: white;
+}
+.nav a h2{
+	margin: 0 0 0 0;
+
+}
+.centered-btn h2{
+	margin-top: 0;
+}
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 p{
