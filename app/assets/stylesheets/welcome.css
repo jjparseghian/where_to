@@ -1,0 +1,19 @@
+.centered-btn{
+	position: absolute;
+  top: 50%;
+  margin-left: 47%;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p{
+	font-family: 'Cantarell', sans-serif;
+}
+
+#rt-nav{
+	float: right;
+}
