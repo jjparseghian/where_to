@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-	before_action :set_comment, only: [:edit, :show, :destroy]
+	before_action only: [:edit, :show, :destroy]
 
 	def index
 		@post = Post.new
@@ -46,10 +46,13 @@ class PostsController < ApplicationController
 	def find
 	end
 
+	def welcome
+	end
+
 	private
 
 	def post_params
-		params.require(:post).permit(:title, :content, :genre, :user_id) #need to add current user
+		params.require(:post).permit(:title, :location, :description, :user_id) #need to add current user
 	end
 
 end
