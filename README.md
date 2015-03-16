@@ -5,7 +5,7 @@ WHERE TO is an app that encourages users to explore and share images from their 
 **Built with:**
 Rails, BassCss, PaperClip, JavaScript, AJAX, jQuery
 
-**Begin your journey here:** [Where To](http://song-explorer.herokuapp.com/)
+**Begin your journey here:** [Where To](http://warm-atoll-6305.herokuapp.com/)
 
 
 
