@@ -1,28 +1,40 @@
-== README
+![](readme_images/index-thumb.png)
+# WHERE TO
+WHERE TO is an app that encourages users to explore and share images from their previous trips.  Along with the picture they can add a title, where it was taken, and a decription of their experience!  Its a great way to get to see the world through other peoples eyes.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Begin your journey here: [Where To](http://song-explorer.herokuapp.com/)
 
-Things you may want to cover:
+####Built with:
+Rails, BassCss, PaperClip, JavaScript, AJAX, jQuery
 
-* Ruby version
+####Ideation Process
+#####Wireframing - original
+We began the process by wireframing a basic mockup of all the pages that we would need to deliver a simple and beautiful UX
 
-* System dependencies
+![](readme_images/ideation-wireframes.png)
 
-* Configuration
+#####Wireframing - complete
+We then fleshed out the wireframes to have a clear understanding of what each page would look like and what features would be needed.
 
-* Database creation
+![](readme_images/complete-wireframe1.png)![](readme_images/complete-wireframe2.png)![](readme_images/complete-wireframe3.png)
 
-* Database initialization
+#####Schema - original
+Our basic schema design subject to change
 
-* How to run the test suite
+![](readme_images/ideation-schema.png)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#####Schema - complete
+Coming soon
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+##Team Members
+
+####James Parseghian
+* GitHub: https://github.com/jjparseghian
+* LinkedIn: www.linkedin.com/pub/james-parseghian/13/326/304/en
+* Email: jjparseghian@gmail.com
+
+####Michael Angelo
+* GitHub: https://github.com/Yamikamisama
+* LinkedIn: http://www.linkedin.com/pub/michael-angelo/9a/a93/1b0/
+* Email: yamikamisama@gmail.com
