@@ -2,12 +2,14 @@
 # WHERE TO
 WHERE TO is an app that encourages users to explore and share images from their previous trips.  Along with the picture they can add a title, where it was taken, and a decription of their experience!  Its a great way to get to see the world through other peoples eyes.
 
-Begin your journey here: [Where To](http://song-explorer.herokuapp.com/)
-
-####Built with:
+**Built with:**
 Rails, BassCss, PaperClip, JavaScript, AJAX, jQuery
 
-####Ideation Process
+**Begin your journey here:** [Where To](http://song-explorer.herokuapp.com/)
+
+
+
+###Ideation Process
 #####Wireframing - original
 We began the process by wireframing a basic mockup of all the pages that we would need to deliver a simple and beautiful UX
 
