@@ -24,6 +24,12 @@ $(document).ready(function(){
   $("#plane").animate({
     right: "+=800",
   }, 3000, function(){
+    setInterval(turbulance, 1000);
+  })
+
+  $("#window-container").animate({
+    right: "+=900",
+  }, 3000, function(){
     // setInterval(turbulance, 1000);
   })
 
