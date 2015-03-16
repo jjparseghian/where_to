@@ -1,3 +1,5 @@
+<%= video_tag("/videos/bgclouds.mp4", autoplay:true, loop: true, controls: false, :class => "bgvid") %>
 <p><%= @post.title %></p>
 <p><%= @post.location %></p>
 <p><%= @post.description %></p>
+<%= image_tag @post.avatar.url(:large) %>
