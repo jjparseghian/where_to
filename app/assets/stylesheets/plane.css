@@ -4,4 +4,16 @@
   zoom: 200%;
   margin-top: 10%;
   position: fixed;
+  right:  -900px;
+  z-index: -50;
+}
+
+#window-container .window {
+  /*z-index: 100;*/
+  display: inline;
+  position: relative;
+}
+
+#window-container .window img {
+  width: 100px;
 }
