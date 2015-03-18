@@ -6,11 +6,11 @@
   <div id="right-nav">
     <% if current_user %>
     	<a href="#!" class="button button-narrow button-transparent"><h2>+</h2></a>
-    	<a href="#!" class="button button-narrow button-transparent"><h2>LOGOUT</h2></a>
+    	<a href="/logout" class="button button-narrow button-transparent"><h2>LOGOUT</h2></a>
     	<a href="#!" class="button button-narrow button-transparent"><h2>PROFILE</h2></a>
     <% else %>
     	<a href="#!" class="button button-narrow button-transparent"><h2>SIGN UP</h2></a>
-    	<a href="#!" class="button button-narrow button-transparent"><h2>LOGIN</h2></a>
+    	<a href="/login" class="button button-narrow button-transparent"><h2>LOGIN</h2></a>
     <% end %>
   </div>
 </div>
