@@ -1,5 +1,12 @@
 <%= video_tag("/videos/bgclouds.mp4", autoplay:true, loop: true, controls: false, :class => "bgvid") %>
-<p><%= @post.title %></p>
-<p><%= @post.location %></p>
-<p><%= @post.description %></p>
-<%= image_tag @post.avatar.url(:large) %>
+<div class="container-full px2">
+	<div class="clearfix">
+	<div class="col col-6">
+		<p><%= @post.title %></p>
+		<p><%= @post.location %></p>
+		<p><%= @post.description %></p>
+		<%= image_tag @post.avatar.url(:large) %>
+	</div>
+	<div class="col col-6"><p>THIS IS WHERE THE MAP WILL GO</p></div>
+	</div>
+</div>
