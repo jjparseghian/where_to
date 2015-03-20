@@ -1,7 +1,9 @@
 .centered-btn{
-	position: absolute;
+	text-align: center;
+}
+
+.centered-btn button{
   top: 40%;
-  margin-left: 43%;
   font-family: 'Oswald', sans-serif;
   border-width: 3px;
 }
@@ -32,3 +34,4 @@ p{
 #rt-nav{
 	float: right;
 }
+
