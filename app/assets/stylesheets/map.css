@@ -1,6 +1,7 @@
 #map-canvas {
   width: 75%;
-  height: 15em;
-  margin: 20% auto;
+  height: auto;
+  margin: 6% auto;
   padding: 0;
+  border: 3px solid #fff;
 }
