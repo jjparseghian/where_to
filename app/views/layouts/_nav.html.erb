@@ -1,16 +1,17 @@
-<div class="mxn1 nav">
-	<div id="left-nav">
-
-  	<a href="#!" class=""><%= image_tag("white_logo.png")%></a>
-  </div>
-  <div id="right-nav">
+<div class="container-full">
+  <div class="clearfix outline-blue">
+    <div class="col col-10">
+     <a href="/" class="nav-logo"><%= image_tag("white_logo.png")%></a>
+   </div>
+   <div class="col col-2">
     <% if current_user %>
-    	<a href="#!" class="button button-narrow button-transparent"><h2>+</h2></a>
-    	<a href="/logout" class="button button-narrow button-transparent"><h2>LOGOUT</h2></a>
-    	<a href="#!" class="button button-narrow button-transparent"><h2>PROFILE</h2></a>
+    <a href="/posts/new" class="nav-btn button button-transparent"><h2>+</h2></a>
+    <a href="/logout" class="nav-btn button button-transparent"><h2>LOGOUT</h2></a>
+    <a href="#!" class="nav-btn button button-transparent"><h2>PROFILE</h2></a>
     <% else %>
-    	<a href="/signup" class="button button-narrow button-transparent"><h2>SIGN UP</h2></a>
-    	<a href="/login" class="button button-narrow button-transparent"><h2>LOGIN</h2></a>
+    <a href="/signup" class="nav-btn button button-transparent"><h2>SIGN UP</h2></a>
+    <a href="/login" class="nav-btn button button-transparent"><h2>LOGIN</h2></a>
     <% end %>
   </div>
+</div>
 </div>

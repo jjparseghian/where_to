@@ -1,21 +1,15 @@
 .centered-btn{
-	position: absolute;
+	text-align: center;
+}
+
+.centered-btn button{
   top: 40%;
-  margin-left: 43%;
   font-family: 'Oswald', sans-serif;
   border-width: 3px;
 }
 
 .centered-btn:before{
   border-width: 3px;
-}
-
-.nav a{
-  color: white;
-}
-.nav a h2{
-	margin: 0 0 0 0;
-
 }
 .centered-btn h2{
 	margin-top: 0;
@@ -29,6 +23,20 @@ p{
 	font-family: 'Cantarell', sans-serif;
 }
 
-#rt-nav{
-	float: right;
+.nav-logo{
+	padding-left: 10px;
+}
+
+.nav-btn{
+	padding: 0 5px;
+	margin-top: 10px;
+}
+
+.nav-btn h2{
+	color: #fff;
+	margin: 0;
+}
+
+.welcome-btn{
+	margin-top: 25%;
 }

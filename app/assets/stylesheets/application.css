@@ -18,12 +18,13 @@ body{
 	background-color: grey;
 }
 
-#right-nav{
-float:right;
-margin: 0.5% 1% 0 0;
+/*New Page Styling*/
+
+form label{
+	color: #fff;
 }
 
-#left-nav{
-float: left;
-margin: 0.5% 0 0 1.5%;
+/*Show Page Styling*/
+p{
+	color: #fff;
 }

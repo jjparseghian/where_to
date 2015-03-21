@@ -1,12 +1,16 @@
 <%= video_tag("/videos/bgclouds.mp4", autoplay:true, loop: true, controls: false, :class => "bgvid") %>
-<%= form_for @post do |f| %>
-  <%= f.label :title %>:
-  <%= f.text_field :title %><br />
-	<%= f.label :location %>:
-  <%= f.text_field :location %><br />
-  <%= f.label :description %>:
-  <%= f.text_field :description %><br />
- 	<%= f.label :avatar %><br />
-  <%= f.file_field :avatar %>
-  <%= f.submit %>
-<% end %>
+<div class="container">
+	<div class="col-4">
+		<%= form_for @post do |f| %>
+		<%= f.label :title %>:
+		<%= f.text_field :title, class: 'block full-width field-light' %><br />
+		<%= f.label :location %>:
+		<%= f.text_field :location, class: 'block full-width field-light' %><br />
+		<%= f.label :description %>:
+		<%= f.text_field :description, class: 'block full-width field-light' %><br />
+		<%= f.label :Upload_Picture %><br />
+		<%= f.file_field :avatar %>
+		<%= f.submit class: 'button button-outline button-med white' %>
+		<% end %>
+	</div>
+</div>
