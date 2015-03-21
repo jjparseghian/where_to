@@ -22,16 +22,16 @@ $(document).ready(function(){
 
   //top right corner of the image going to be x, y 0
   $("#plane").animate({
-    right: "+=800",
-  }, 3000, function(){
-    setInterval(turbulance, 1000);
-  })
-
-  $("#window-container").animate({
-    right: "+=900",
-  }, 3000, function(){
+    left: "+=85%",
+  }, 4000, function(){
     // setInterval(turbulance, 1000);
   })
+
+  // $("#window-container").animate({
+  //   right: "+=900",
+  // }, 3000, function(){
+  //   // setInterval(turbulance, 1000);
+  // })
 
 
 });
