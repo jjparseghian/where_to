@@ -1,9 +1,10 @@
+<nav>
 <div class="container-full">
   <div class="clearfix outline-blue">
-    <div class="col col-10">
+    <div class="col md-col-9 lg-col-10">
      <a href="/" class="nav-logo"><%= image_tag("white_logo.png")%></a>
    </div>
-   <div class="col col-2">
+   <div class="right-nav col md-col-3 lg-col-2">
     <% if current_user %>
     <a href="/posts/new" class="nav-btn button button-transparent"><h2>+</h2></a>
     <a href="/logout" class="nav-btn button button-transparent"><h2>LOGOUT</h2></a>
@@ -15,3 +16,4 @@
   </div>
 </div>
 </div>
+</nav>
