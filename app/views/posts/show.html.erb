@@ -1,4 +1,5 @@
 <%= video_tag("/videos/bgclouds.mp4", autoplay:true, loop: true, controls: false, :class => "bgvid") %>
+<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGpMhIcWhtBjsh2ZmM4GPflQiwU6OHbBU"> </script>
 <div class="container-full px2">
 	<div class="clearfix">
 	<div class="col col-6">
@@ -7,6 +8,8 @@
 		<p><%= @post.description %></p>
 		<%= image_tag @post.avatar.url(:large) %>
 	</div>
-	<div class="col col-6"><p>THIS IS WHERE THE MAP WILL GO</p></div>
+	<div class="col col-6">
+		<div id="map-canvas"></div>
+	</div>
 	</div>
 </div>
