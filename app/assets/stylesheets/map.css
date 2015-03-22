@@ -10,4 +10,7 @@
     #map-canvas {
         height: 200px;
     }
+    .right-nav{
+    	margin-left: 33%;
+    }
 }
