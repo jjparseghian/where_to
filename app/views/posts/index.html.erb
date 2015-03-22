@@ -1,20 +1,59 @@
 <%= video_tag("/videos/bgclouds.mp4", controls: false, autoplay: true, :loop => true, :class => "bgvid") %>
 
-<div id="plane-all">
+<div>
   <%= image_tag("plane_side.png", :id => "plane") %>
+</div>
+<div class="container-full">
+  <div class="clearfix">
+    <div id="clouds">
+      <!-- <div id="cloud-container"> -->
+      <ul>
+        <li>
+          <div>
+            <h3 class="Continent">North America</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">South America</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">Europe</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">Africa</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">Asia</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">Australia</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
+       <li>
+          <div>
+            <h3 class="Continent">Antartica</h3>
+            <%= image_tag("cloud.png", class: "cloud") %>
+          </div>
+        </li>
 
-  <div id="window-container">
-    <div class="window">
-      <img src="https://lh3.googleusercontent.com/-S83QyaxoKq0/AAAAAAAAAAI/AAAAAAAAAAA/OS5OaHFEQAg/photo.jpg">
+      </ul>
+      <!-- </div> -->
     </div>
-    <div class="window">
-      <img src="https://lh3.googleusercontent.com/-S83QyaxoKq0/AAAAAAAAAAI/AAAAAAAAAAA/OS5OaHFEQAg/photo.jpg">
-    </div>
-    <div class="window">
-      <img src="https://lh3.googleusercontent.com/-S83QyaxoKq0/AAAAAAAAAAI/AAAAAAAAAAA/OS5OaHFEQAg/photo.jpg">
-    </div>
-    <div class="window">
-      <img src="https://lh3.googleusercontent.com/-S83QyaxoKq0/AAAAAAAAAAI/AAAAAAAAAAA/OS5OaHFEQAg/photo.jpg">
-    </div>
+
   </div>
 </div>
