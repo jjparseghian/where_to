@@ -1,7 +1,16 @@
 #map-canvas {
-  width: 75%;
-  height: auto;
-  margin: 6% auto;
-  padding: 0;
-  border: 3px solid #fff;
+    width: 80%;
+    height: 400px;
+    margin: 6% auto;
+    padding: 0;
+    border: 3px solid #fff;
+}
+
+@media only screen and (max-width: 570px) {
+    #map-canvas {
+        height: 200px;
+    }
+    .right-nav{
+    	margin-left: 33%;
+    }
 }
