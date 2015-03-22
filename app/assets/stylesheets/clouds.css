@@ -1,0 +1,28 @@
+#clouds {
+  position: relative;
+  display: block;
+  margin: 28% 3% 5% 3%;
+}
+
+#clouds div {
+  position: relative;
+  display: inline-block;
+  margin: -5%;
+  z-index: -75;
+  padding: 13px;
+  margin: 5px;
+  height: auto;
+  max-width: 300px;
+}
+
+#clouds h3 {
+  color: white;
+  text-align: center;
+}
+
+#clouds li {
+  display: inline-block;
+  float: left;
+  width: 14.2%;
+  list-style: none;
+}
