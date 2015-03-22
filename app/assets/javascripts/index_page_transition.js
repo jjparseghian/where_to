@@ -1,12 +1,12 @@
   var down = function () {
     $("#plane").animate({
-      top: "-=10",
+      top: "-=20",
     }, 3000)
   };
 
   var up = function () {
     $("#plane").animate({
-      top: "+=10",
+      top: "+=20",
     }, 3000)
   };
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
   $("#plane").animate({
     left: "+=85%",
   }, 4000, function(){
-    // setInterval(turbulance, 1000);
+    setInterval(turbulance, 1000);
   })
 
   // $("#window-container").animate({
