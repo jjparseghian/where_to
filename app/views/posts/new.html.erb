@@ -1,7 +1,7 @@
 <%= video_tag("/videos/bgclouds.mp4", autoplay:true, loop: true, controls: false, :class => "bgvid") %>
 <div class="container">
 	<div class="col-4">
-		<%= form_for @post do |f| %>
+		<%= form_for @post, html: {mulitpart: true} do |f| %>
 		<%= f.label :title %>:
 		<%= f.text_field :title, class: 'block full-width field-light' %><br />
 		<%= f.label :location %>:
@@ -9,7 +9,7 @@
 		<%= f.label :description %>:
 		<%= f.text_field :description, class: 'block full-width field-light' %><br />
 		<%= f.label :Upload_Picture %><br />
-		<%= f.file_field :avatar %>
+		<%= f.file_field :image %>
 		<%= f.submit class: 'button button-outline button-med white' %>
 		<% end %>
 	</div>
